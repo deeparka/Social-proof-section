@@ -8,6 +8,11 @@ body {
     font-size: 15px;
 }
 
+/* div.container {
+    display: flex;
+    flex-direction: column;
+} */
+
 div.container div.headline-rate {
     display: flex;
     justify-content: space-between;
@@ -15,21 +20,27 @@ div.container div.headline-rate {
 
 div.container div.buyer {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* flex-wrap: nowrap; */
 }
 
 div.container div div p.headline-paragraph {
     padding-right: 100px;
 }
 
-div.container div div p.headline-paragraph span {
+div.container div div p.headline-paragraph span.head {
     font-weight: 900;
     font-size: 35px;
     color: #502050;
 }
 
-div.container div div div p {
-    background-color: hsl(300, 24%, 96%);
-    border: hsl(300, 24%, 96%);
+div.container div div p.headline-paragraph span.head-gap {
+    line-height: 25px;
+}
+
+div.container div.headline-rate div div p {
+    background-color: #f7f2f7;
     border-radius: 6px;
     padding: 15px 0;
     padding-left: 30px;
@@ -58,4 +69,56 @@ div.container div div.rate div p span {
 
 div.container div div.rate div p img {
     margin-right: 3px;
+}
+
+/* div.container div.buyer div {
+    justify-content: flex-start;
+} */
+
+div.container div.buyer div {
+    background-color: #502050;
+    border-radius: 10px;
+    margin: 10px 0;
+    margin-right: 35px;
+    padding: 40px;
+}
+
+div.container div.buyer div.anne {
+    margin-right: 50px;
+}
+
+div.container div.buyer div p img {
+    border-radius: 40%;
+}
+
+div.container div.buyer div p span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+div.container div.buyer div p span span.verified-buyer {
+    color: #ee68a4;
+}
+
+div.container div.buyer div p span span.quotes {
+    line-height: 25px;
+    padding: 2px;
+}
+
+div.container div.buyer div.colton {
+    margin-bottom: 150px;
+}
+
+div.container div.buyer div.irene {
+    margin-bottom: 120px;
+    margin-top: 30px;
+}
+
+div.container div.buyer div.anne {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.name {
+    margin-top: 0;
 }

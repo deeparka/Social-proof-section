@@ -26,3 +26,7 @@ div.container div div p.headline-paragraph span {
     font-size: 35px;
     color: #502050;
 }
+
+div.container div div.rate {
+    margin-right: 200px;
+}

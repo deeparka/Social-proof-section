@@ -122,3 +122,21 @@ div.container div.buyer div.anne {
 .name {
     margin-top: 0;
 }
+
+footer {
+    margin-top: 1px;
+    text-align: center;
+    padding: 3px;
+    background-color: #502050;
+    color: white;
+}
+
+footer a {
+    color: #ee68a4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #c959c6;
+}

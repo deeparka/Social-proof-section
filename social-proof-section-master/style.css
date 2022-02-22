@@ -1,0 +1,17 @@
+* {
+    font-family: "Spartan", sans-serif;
+}
+
+body {
+    background-image: url("/social-proof-section-master/images/bg-pattern-top-desktop.svg");
+    margin: 100px;
+}
+
+div.container div.headline-rate {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.container div.buyer {
+    display: flex;
+}

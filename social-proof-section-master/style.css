@@ -120,7 +120,8 @@ div.container div.buyer div.anne {
 }
 
 .name {
-    margin-top: 0;
+    border-top: 1px transparent white;
+    margin-top: -10px;
 }
 
 footer {

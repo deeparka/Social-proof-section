@@ -75,15 +75,15 @@ div.container div div.rate div p img {
     justify-content: flex-start;
 } */
 
-div.container div.buyer div {
+/* div.container div.buyer div {
     background-color: #502050;
     border-radius: 10px;
     margin: 10px 0;
     margin-right: 35px;
     padding: 40px;
-}
+} */
 
-div.container div.buyer div.anne {
+/* div.container div.buyer div.anne {
     margin-right: 50px;
 }
 
@@ -94,18 +94,18 @@ div.container div.buyer div p img {
 div.container div.buyer div p span {
     color: #ffffff;
     font-weight: bold;
-}
+} */
 
-div.container div.buyer div p span span.verified-buyer {
+/* div.container div.buyer div p span span.verified-buyer {
     color: #ee68a4;
 }
 
 div.container div.buyer div p span span.quotes {
     line-height: 25px;
     padding: 2px;
-}
+} */
 
-div.container div.buyer div.colton {
+/* div.container div.buyer div.colton {
     margin-bottom: 150px;
 }
 
@@ -117,11 +117,72 @@ div.container div.buyer div.irene {
 div.container div.buyer div.anne {
     margin-bottom: 30px;
     margin-top: 50px;
-}
+} */
 
-.name {
+/* .name {
     border-top: 1px transparent white;
     margin-top: -10px;
+} */
+
+.buyer {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-colton,
+.card-irene,
+.card-anne {
+    background-color: #502050;
+    height: 200px;
+    width: 380px;
+    color: #f7f2f7;
+    padding: 40px 25px 12px 34px;
+    border-radius: 0.6rem;
+}
+
+.card-colton {
+    margin-bottom: 150px;
+}
+
+.card-irene {
+    margin-bottom: 120px;
+    margin-top: 25px;
+}
+
+.card-anne {
+    margin-right: 48px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.profile {
+    display: flex;
+    margin-bottom: 1.6rem;
+}
+
+.info {
+    margin-left: 1.2rem;
+    margin-top: 0.1rem;
+    font-weight: bold;
+}
+
+.type {
+    color: #ee68a4;
+}
+
+.quotes {
+    font-size: 14px;
+    word-spacing: 1px;
+    line-height: 20px;
+    font-weight: 900;
+}
+
+.card-colton img,
+.card-irene img,
+.card-anne img {
+    border-radius: 50%;
 }
 
 footer {
@@ -129,7 +190,7 @@ footer {
     text-align: center;
     padding: 3px;
     background-color: #502050;
-    color: white;
+    color: #ffffff;
 }
 
 footer a {
